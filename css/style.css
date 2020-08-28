@@ -81,6 +81,7 @@ nav ul {
       -ms-flex: 1;
           flex: 1;
   list-style: none;
+  margin-left: 2rem;
 }
 
 nav #logo {
