@@ -157,6 +157,7 @@ nav .order {
 
 .showcase .info h3 {
   padding-bottom: 3rem;
+  display: ruby-base;
 }
 
 .features-container {
@@ -188,6 +189,10 @@ nav .order {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.features h2 {
+  margin: 2rem;
 }
 
 .features .cards {
@@ -355,9 +360,9 @@ footer h1 {
     text-align: center;
   }
   footer h1 {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -webkit-box-flex: 9;
+        -ms-flex: 9;
+            flex: 9;
   }
 }
 /*# sourceMappingURL=style.css.map */

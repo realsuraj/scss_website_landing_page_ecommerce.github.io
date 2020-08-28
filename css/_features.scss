@@ -20,6 +20,9 @@
   flex-direction: column;
   justify-content: space-around;
 
+  h2 {
+    margin: 2rem;
+  }
   .cards {
     display: flex;
     justify-content: space-between;
