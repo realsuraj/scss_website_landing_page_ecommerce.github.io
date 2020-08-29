@@ -261,7 +261,8 @@ nav .order {
 }
 
 .soon h2 {
-  top: 25%;
+  font-size: 6rem;
+  top: 15%;
 }
 
 .soon img {
@@ -307,13 +308,17 @@ footer h1 {
   html {
     font: 50%;
   }
+  nav {
+    overflow: hidden;
+  }
   nav #logo {
+    margin-left: 1rem;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
   }
-  nav ul li {
-    margin-left: 5rem;
+  nav ul li a {
+    font-size: 1rem;
   }
   .showcase {
     -ms-grid-columns: 10% 1fr 10% !important;
@@ -355,10 +360,15 @@ footer h1 {
   }
   .soon img {
     width: 60%;
+    top: 49%;
   }
   .soon h2 {
     font-size: 5rem;
     text-align: center;
+  }
+  .soon .circle {
+    width: 60%;
+    height: auto;
   }
   footer h1 {
     -webkit-box-flex: 9;
